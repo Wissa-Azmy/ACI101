@@ -8,6 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		299F3C2820FF58C300618F85 /* MinutesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 299F3C2720FF58C300618F85 /* MinutesTests.swift */; };
+		299F3C3A2100B1AE00618F85 /* AppCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 299F3C342100B1AE00618F85 /* AppCenter.framework */; };
+		299F3C3B2100B1AE00618F85 /* AppCenterPush.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 299F3C352100B1AE00618F85 /* AppCenterPush.framework */; };
+		299F3C3C2100B1AE00618F85 /* AppCenterAnalytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 299F3C362100B1AE00618F85 /* AppCenterAnalytics.framework */; };
+		299F3C3D2100B1AE00618F85 /* AppCenterDistribute.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 299F3C372100B1AE00618F85 /* AppCenterDistribute.framework */; };
+		299F3C3E2100B1AE00618F85 /* AppCenterDistributeResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 299F3C382100B1AE00618F85 /* AppCenterDistributeResources.bundle */; };
+		299F3C3F2100B1AE00618F85 /* AppCenterCrashes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 299F3C392100B1AE00618F85 /* AppCenterCrashes.framework */; };
 		D3048F28202E2B2D00D45D7E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3048F27202E2B2D00D45D7E /* AppDelegate.swift */; };
 		D3048F2D202E2B2D00D45D7E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3048F2B202E2B2D00D45D7E /* Main.storyboard */; };
 		D3048F2F202E2B2D00D45D7E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3048F2E202E2B2D00D45D7E /* Assets.xcassets */; };
@@ -32,6 +38,12 @@
 		299F3C2520FF58C300618F85 /* MinutesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MinutesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		299F3C2720FF58C300618F85 /* MinutesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinutesTests.swift; sourceTree = "<group>"; };
 		299F3C2920FF58C300618F85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		299F3C342100B1AE00618F85 /* AppCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AppCenter.framework; sourceTree = "<group>"; };
+		299F3C352100B1AE00618F85 /* AppCenterPush.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AppCenterPush.framework; sourceTree = "<group>"; };
+		299F3C362100B1AE00618F85 /* AppCenterAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AppCenterAnalytics.framework; sourceTree = "<group>"; };
+		299F3C372100B1AE00618F85 /* AppCenterDistribute.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AppCenterDistribute.framework; sourceTree = "<group>"; };
+		299F3C382100B1AE00618F85 /* AppCenterDistributeResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AppCenterDistributeResources.bundle; sourceTree = "<group>"; };
+		299F3C392100B1AE00618F85 /* AppCenterCrashes.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AppCenterCrashes.framework; sourceTree = "<group>"; };
 		D3048F24202E2B2D00D45D7E /* Minutes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Minutes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3048F27202E2B2D00D45D7E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D3048F2C202E2B2D00D45D7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -56,6 +68,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				299F3C3A2100B1AE00618F85 /* AppCenter.framework in Frameworks */,
+				299F3C3C2100B1AE00618F85 /* AppCenterAnalytics.framework in Frameworks */,
+				299F3C3D2100B1AE00618F85 /* AppCenterDistribute.framework in Frameworks */,
+				299F3C3B2100B1AE00618F85 /* AppCenterPush.framework in Frameworks */,
+				299F3C3F2100B1AE00618F85 /* AppCenterCrashes.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,9 +88,23 @@
 			path = MinutesTests;
 			sourceTree = "<group>";
 		};
+		299F3C332100B17600618F85 /* AppCenter */ = {
+			isa = PBXGroup;
+			children = (
+				299F3C342100B1AE00618F85 /* AppCenter.framework */,
+				299F3C362100B1AE00618F85 /* AppCenterAnalytics.framework */,
+				299F3C392100B1AE00618F85 /* AppCenterCrashes.framework */,
+				299F3C372100B1AE00618F85 /* AppCenterDistribute.framework */,
+				299F3C382100B1AE00618F85 /* AppCenterDistributeResources.bundle */,
+				299F3C352100B1AE00618F85 /* AppCenterPush.framework */,
+			);
+			path = AppCenter;
+			sourceTree = "<group>";
+		};
 		D3048F1B202E2B2D00D45D7E = {
 			isa = PBXGroup;
 			children = (
+				299F3C332100B17600618F85 /* AppCenter */,
 				D3048F26202E2B2D00D45D7E /* Minutes */,
 				299F3C2620FF58C300618F85 /* MinutesTests */,
 				D3048F25202E2B2D00D45D7E /* Products */,
@@ -198,6 +229,7 @@
 				D3048F32202E2B2D00D45D7E /* LaunchScreen.storyboard in Resources */,
 				D3048F2F202E2B2D00D45D7E /* Assets.xcassets in Resources */,
 				D3048F2D202E2B2D00D45D7E /* Main.storyboard in Resources */,
+				299F3C3E2100B1AE00618F85 /* AppCenterDistributeResources.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -406,6 +438,10 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 33LUQV6NP7;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AppCenter",
+				);
 				INFOPLIST_FILE = Minutes/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.wissa.Minutes;
@@ -420,6 +456,10 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 33LUQV6NP7;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AppCenter",
+				);
 				INFOPLIST_FILE = Minutes/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.wissa.Minutes;
